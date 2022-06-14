@@ -1,0 +1,3 @@
+Importante lembrar, sempre deletar a branch feature após pull request aprovada.
+Sempre que fazer uma branch nova, clonar da linha dev/Master mais atual.
+Git Hub, consegue fazer a merge caso não haja conflito.
