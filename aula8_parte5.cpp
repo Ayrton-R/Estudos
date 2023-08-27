@@ -11,17 +11,15 @@ int main()
         cout<<"Digite o terceiro numero"<<endl;
         cin>>c;
 
-        if (a>b&& b>c){
+        if (a>b&& a>c){
             cout<<a<<endl;
         }
-        else if(b>a&& a>c)
-
-
-
-
-
-
-
+        else if(b>a&& b>c){
+            cout<<b<<endl;
+        }
+        else if(c>b&& c>a){
+            cout<<c<<endl;
+        }
 
     return 0;
 }
