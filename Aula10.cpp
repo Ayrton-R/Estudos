@@ -9,7 +9,8 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     cout<<"Informe a quantidade de notas"<<endl;
     cin>> qtdn;
-    while (counter <=qtdn){
+    while (counter <=qtdn)
+    {
         cout<<"Informe uma nota:"<<counter<<endl;
         cin>>nota;
         soma = soma + nota;

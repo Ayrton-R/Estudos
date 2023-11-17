@@ -1,8 +1,9 @@
 #include <iostream>
 #include <locale.h>
+#define TAMANHO 6
 using namespace std;
-float A[6];
-int soma;
+int A[6];
+int soma,counter=1;
 
 int main(){
 
@@ -14,6 +15,11 @@ A[3]=-2;
 A[4]=-5;
 A[5]=7;
 soma = A[0]+A[1]+A[5] ;
-cout<<"Soma é igual a:"<<soma<<endl;
+cout<<"Soma de A[0] + A[1] e A[5] é:"<<soma<<endl;
+
+A[4]=100;
+for (int i=0; i <TAMANHO; i++){
+    cout <<"Vetor na posição A["<<i<<"] é:"<<A[i]<<endl;
+}
 return 0;
 }
